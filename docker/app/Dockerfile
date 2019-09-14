@@ -52,8 +52,7 @@ WORKDIR /var/www/app
 
 # Install the backend application dependencies.
 COPY ./database ./database
-COPY ./composer.json ./composer.json
-COPY ./composer.lock ./composer.lock
+COPY ./composer* ./
 RUN composer install \
  --no-interaction \
  --no-plugins \
@@ -61,8 +60,7 @@ RUN composer install \
  --prefer-dist
 
 # Install the frontend application dependencies.
-COPY ./package.json ./package.json
-COPY ./package-lock.json ./package-lock.json
+COPY ./package*.json ./
 RUN npm install
 
 # Copy the application source code.

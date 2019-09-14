@@ -3,6 +3,7 @@
 namespace App\Util;
 
 use Exception;
+use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
 use InvalidArgumentException;
 
@@ -88,7 +89,7 @@ function array_remove_dot_notation(array $array): array
     $result = [];
 
     foreach ($array as $key => $value) {
-        array_set($result, $key, $value);
+        Arr::set($result, $key, $value);
     }
 
     return $result;
