@@ -3,8 +3,6 @@
 namespace Lib\Rss\Contracts;
 
 /**
- * Interface Item.
- *
  * @package Lib\Rss\Contracts
  */
 interface Item

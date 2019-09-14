@@ -3,8 +3,6 @@
 namespace Lib\SiteMap\Contracts;
 
 /**
- * Interface Builder.
- *
  * @package Lib\SiteMap\Contracts
  */
 interface Builder

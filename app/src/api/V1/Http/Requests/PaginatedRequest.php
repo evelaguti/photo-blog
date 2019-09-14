@@ -5,8 +5,6 @@ namespace Api\V1\Http\Requests;
 use Illuminate\Foundation\Http\FormRequest;
 
 /**
- * Class PaginatedRequest.
- *
  * @package Api\V1\Http\Requests
  */
 class PaginatedRequest extends FormRequest

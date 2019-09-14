@@ -6,8 +6,6 @@ use Illuminate\Contracts\Support\Arrayable;
 use JsonSerializable;
 
 /**
- * Class Coordinates.
- *
  * @package Core\ValueObjects
  */
 final class Coordinates implements Arrayable, JsonSerializable
@@ -16,8 +14,6 @@ final class Coordinates implements Arrayable, JsonSerializable
     private $longitude;
 
     /**
-     * Coordinates constructor.
-     *
      * @param Latitude $latitude
      * @param Longitude $longitude
      */

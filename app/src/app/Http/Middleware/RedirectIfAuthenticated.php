@@ -6,8 +6,6 @@ use Closure;
 use Illuminate\Support\Facades\Auth;
 
 /**
- * Class RedirectIfAuthenticated.
- *
  * @package App\Http\Middleware
  */
 class RedirectIfAuthenticated

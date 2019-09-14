@@ -10,8 +10,6 @@ use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 
 /**
- * Class UserCreateAction.
- *
  * @package Api\V1\Http\Actions
  */
 class UserCreateAction
@@ -27,8 +25,6 @@ class UserCreateAction
     private $userManager;
 
     /**
-     * UserCreateAction constructor.
-     *
      * @param ResponseFactory $responseFactory
      * @param UserManager $userManager
      */

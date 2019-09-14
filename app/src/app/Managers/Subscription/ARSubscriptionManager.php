@@ -11,8 +11,6 @@ use Illuminate\Database\ConnectionInterface as Database;
 use function App\Util\str_unique;
 
 /**
- * Class ARSubscriptionManager.
- *
  * @package App\Managers\Subscription
  */
 class ARSubscriptionManager implements SubscriptionManager
@@ -28,8 +26,6 @@ class ARSubscriptionManager implements SubscriptionManager
     private $validator;
 
     /**
-     * ARSubscriptionManager constructor.
-     *
      * @param Database $database
      * @param SubscriptionValidator $validator
      */

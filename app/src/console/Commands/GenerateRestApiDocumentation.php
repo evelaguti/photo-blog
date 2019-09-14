@@ -7,8 +7,6 @@ use Symfony\Component\Process\Exception\ProcessFailedException;
 use Symfony\Component\Process\Process;
 
 /**
- * Class GenerateRestApiDocumentation.
- *
  * @package Console\Commands
  */
 class GenerateRestApiDocumentation extends Command

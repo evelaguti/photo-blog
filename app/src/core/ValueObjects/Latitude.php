@@ -5,8 +5,6 @@ namespace Core\ValueObjects;
 use InvalidArgumentException;
 
 /**
- * Class Latitude.
- *
  * @package Core\ValueObjects
  */
 final class Latitude
@@ -14,8 +12,6 @@ final class Latitude
     private $value;
 
     /**
-     * Latitude constructor.
-     *
      * @param float $value
      */
     public function __construct(float $value)

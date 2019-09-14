@@ -12,8 +12,6 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Str;
 
 /**
- * Class Location.
- *
  * Note: Laravel does not support spatial types.
  * See: https://dev.mysql.com/doc/refman/5.7/en/spatial-type-overview.html
  *

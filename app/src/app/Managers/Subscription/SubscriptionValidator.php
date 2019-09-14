@@ -9,8 +9,6 @@ use Illuminate\Validation\ValidationException;
 use function App\Util\validator_filter_attributes;
 
 /**
- * Class SubscriptionValidator.
- *
  * @package App\Managers\Subscription
  */
 class SubscriptionValidator
@@ -21,8 +19,6 @@ class SubscriptionValidator
     private $validatorFactory;
 
     /**
-     * SubscriptionValidator constructor.
-     *
      * @param ValidatorFactory $validatorFactory
      */
     public function __construct(ValidatorFactory $validatorFactory)

@@ -6,8 +6,6 @@ use App\Rules\ReCaptchaRule;
 use Illuminate\Foundation\Http\FormRequest;
 
 /**
- * Class CreateAuthRequest.
- *
  * @package Api\V1\Http\Requests
  */
 class CreateAuthRequest extends FormRequest

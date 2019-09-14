@@ -8,8 +8,6 @@ use function App\Util\html_purify;
 use function App\Util\to_float;
 
 /**
- * Class LocationPlainResource.
- *
  * @package Api\V1\Http\Resources
  */
 class LocationPlainResource extends Resource

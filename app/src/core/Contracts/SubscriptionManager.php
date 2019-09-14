@@ -6,8 +6,6 @@ use Core\Entities\SubscriptionEntity;
 use Illuminate\Contracts\Pagination\LengthAwarePaginator;
 
 /**
- * Interface SubscriptionManager.
- *
  * @package Core\Contracts
  */
 interface SubscriptionManager

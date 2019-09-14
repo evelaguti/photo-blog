@@ -7,8 +7,6 @@ use Core\Entities\ThumbnailEntity;
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * Class Thumbnail.
- *
  * @property int id
  * @property string path
  * @property int width

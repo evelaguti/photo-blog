@@ -13,8 +13,6 @@ use Laravel\Passport\ClientRepository as OAuthClientRepository;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 
 /**
- * Class OAuthCookieAuthorizationProxy.
- *
  * @package Api\V1\Http\Proxy
  */
 class CookieOAuthProxy implements OAuthProxyContract
@@ -45,8 +43,6 @@ class CookieOAuthProxy implements OAuthProxyContract
     private $oAuthClientRepository;
 
     /**
-     * OAuthCookieAuthorizationProxy constructor.
-     *
      * @param Application $app
      * @param Request $request
      * @param ResponseFactory $responseFactory

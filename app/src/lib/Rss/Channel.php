@@ -5,8 +5,6 @@ namespace Lib\Rss;
 use Lib\Rss\Contracts\Channel as ChannelContract;
 
 /**
- * Class Channel.
- *
  * @package Lib\Rss
  */
 class Channel implements ChannelContract

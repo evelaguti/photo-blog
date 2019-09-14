@@ -7,8 +7,6 @@ use Core\ValueObjects\ImageMetadata;
 use Illuminate\Support\Collection;
 
 /**
- * Class PhotoEntity.
- *
  * @package Core\Entities
  */
 final class PhotoEntity extends AbstractEntity
@@ -24,8 +22,6 @@ final class PhotoEntity extends AbstractEntity
     private $location;
 
     /**
-     * PhotoEntity constructor.
-     *
      * @param array $attributes
      */
     public function __construct(array $attributes)

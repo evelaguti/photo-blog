@@ -15,8 +15,6 @@ use Imagine\Image\Point;
 use InvalidArgumentException;
 
 /**
- * Class ImagineImageProcessor.
- *
  * @package App\Services\Image
  */
 class ImagineImageProcessor implements ImageProcessor
@@ -47,8 +45,6 @@ class ImagineImageProcessor implements ImageProcessor
     private $path = null;
 
     /**
-     * ImagineImageProcessor constructor.
-     *
      * @param Imagine $imagine
      * @param Storage $storage
      * @param ValidatorFactory $validatorFactory

@@ -5,8 +5,6 @@ namespace Core\Contracts;
 use Illuminate\Contracts\Pagination\LengthAwarePaginator;
 
 /**
- * Interface TagManager.
- *
  * @package Core\Contracts
  */
 interface TagManager

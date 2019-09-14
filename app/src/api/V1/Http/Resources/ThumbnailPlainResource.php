@@ -11,8 +11,6 @@ use function App\Util\to_string;
 use function App\Util\url_storage;
 
 /**
- * Class ThumbnailPlainResource.
- *
  * @package Api\V1\Http\Resources
  */
 class ThumbnailPlainResource extends Resource

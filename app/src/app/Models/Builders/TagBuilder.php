@@ -7,8 +7,6 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Query\Expression;
 
 /**
- * Class TagBuilder.
- *
  * @package App\Models\Builders
  */
 class TagBuilder extends Builder

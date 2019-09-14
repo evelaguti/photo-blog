@@ -6,8 +6,6 @@ use Core\Entities\PostEntity;
 use Illuminate\Contracts\Pagination\LengthAwarePaginator;
 
 /**
- * Interface PostManager.
- *
  * @package Core\Contracts
  */
 interface PostManager

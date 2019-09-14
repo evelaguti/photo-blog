@@ -3,8 +3,6 @@
 namespace Core\Entities;
 
 /**
- * Class ThumbnailEntity.
- *
  * @package Core\Entities
  */
 final class ThumbnailEntity extends AbstractEntity
@@ -14,8 +12,6 @@ final class ThumbnailEntity extends AbstractEntity
     private $height;
 
     /**
-     * ThumbnailEntity constructor.
-     *
      * @param array $attributes
      */
     public function __construct(array $attributes)

@@ -5,8 +5,6 @@ namespace Api\V1\Policies;
 use App\Models\User;
 
 /**
- * Class ResourcePolicy.
- *
  * @package Api\V1\Policies
  */
 class ResourcePolicy

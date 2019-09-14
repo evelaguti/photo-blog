@@ -9,8 +9,6 @@ use Illuminate\Console\Command;
 use Illuminate\Support\Collection;
 
 /**
- * Class DeleteDetachedPhotosOlderThanWeek.
- *
  * @package Console\Commands
  */
 class DeleteDetachedPhotosOlderThanWeek extends Command

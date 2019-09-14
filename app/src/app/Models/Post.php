@@ -10,8 +10,6 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Collection;
 
 /**
- * Class Post.
- *
  * @property int id
  * @property int created_by_user_id
  * @property string description

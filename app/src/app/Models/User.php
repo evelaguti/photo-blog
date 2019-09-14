@@ -11,8 +11,6 @@ use Illuminate\Support\Collection;
 use Laravel\Passport\HasApiTokens;
 
 /**
- * Class User.
- *
  * @property int id
  * @property int role_id
  * @property string name

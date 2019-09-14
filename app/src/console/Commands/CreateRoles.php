@@ -7,8 +7,6 @@ use Core\Entities\UserEntity;
 use Illuminate\Console\Command;
 
 /**
- * Class CreateRoles.
- *
  * @package Console\Commands
  */
 class CreateRoles extends Command

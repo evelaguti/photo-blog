@@ -6,8 +6,6 @@ use App\Rules\ReCaptchaRule;
 use Illuminate\Foundation\Http\FormRequest;
 
 /**
- * Class ContactMessageRequest.
- *
  * @package Api\V1\Http\Requests
  */
 class ContactMessageRequest extends FormRequest

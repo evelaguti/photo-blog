@@ -9,8 +9,6 @@ use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Response;
 
 /**
- * Class UserGetByIdAction.
- *
  * @package Api\V1\Http\Actions
  */
 class UserGetByIdAction
@@ -26,8 +24,6 @@ class UserGetByIdAction
     private $userManager;
 
     /**
-     * UserGetByIdAction constructor.
-     *
      * @param ResponseFactory $responseFactory
      * @param UserManager $userManager
      */

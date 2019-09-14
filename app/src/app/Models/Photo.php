@@ -10,8 +10,6 @@ use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * Class Photo.
- *
  * @property int id
  * @property int created_by_user_id
  * @property int location_id

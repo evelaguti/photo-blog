@@ -15,8 +15,6 @@ use function App\Util\url_frontend_photo;
 use function App\Util\url_frontend_tag;
 
 /**
- * Class AppSiteMapBuilder.
- *
  * @package App\Services\SiteMap
  */
 class AppSiteMapBuilder implements SiteMapBuilder
@@ -37,8 +35,6 @@ class AppSiteMapBuilder implements SiteMapBuilder
     private $tagManager;
 
     /**
-     * AppSiteMapBuilder constructor.
-     *
      * @param Builder $siteMapBuilder
      * @param ARPhotoManager $photoManager
      * @param ARTagManager $tagManager

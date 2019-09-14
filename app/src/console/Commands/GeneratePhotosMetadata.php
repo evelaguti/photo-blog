@@ -9,8 +9,6 @@ use Illuminate\Support\Collection;
 use Throwable;
 
 /**
- * Class GeneratePhotosMetadata.
- *
  * @package Console\Commands
  */
 class GeneratePhotosMetadata extends Command

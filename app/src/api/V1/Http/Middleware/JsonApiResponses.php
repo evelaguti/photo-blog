@@ -8,8 +8,6 @@ use Illuminate\Http\Response;
 use Symfony\Component\HttpKernel\Exception\HttpException;
 
 /**
- * Class JsonApiResponses.
- *
  * @package Api\V1\Http\Middleware
  */
 class JsonApiResponses

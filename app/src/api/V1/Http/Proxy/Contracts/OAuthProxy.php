@@ -3,8 +3,6 @@
 namespace Api\V1\Http\Proxy\Contracts;
 
 /**
- * Interface OAuthProxy.
- *
  * @package Api\V1\Http\Proxy\Contracts
  */
 interface OAuthProxy

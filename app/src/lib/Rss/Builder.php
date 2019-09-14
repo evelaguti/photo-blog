@@ -7,8 +7,6 @@ use Lib\Rss\Contracts\Channel;
 use Lib\Rss\Contracts\Item as ItemContract;
 
 /**
- * Class Builder.
- *
  * @package Lib\Rss
  */
 class Builder implements BuilderContract

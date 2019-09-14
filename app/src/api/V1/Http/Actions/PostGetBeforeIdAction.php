@@ -10,8 +10,6 @@ use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 
 /**
- * Class PostGetBeforeIdAction.
- *
  * @package Api\V1\Http\Actions
  */
 class PostGetBeforeIdAction
@@ -32,8 +30,6 @@ class PostGetBeforeIdAction
     private $cacheManager;
 
     /**
-     * PostGetBeforeIdAction constructor.
-     *
      * @param ResponseFactory $responseFactory
      * @param PostManager $postManager
      * @param CacheManager $cacheManager

@@ -13,8 +13,6 @@ use Illuminate\Contracts\Pagination\LengthAwarePaginator;
 use Illuminate\Database\ConnectionInterface as Database;
 
 /**
- * Class ARPostManager.
- *
  * @package App\Managers\Post
  */
 class ARPostManager implements PostManager
@@ -35,8 +33,6 @@ class ARPostManager implements PostManager
     private $validator;
 
     /**
-     * ARPostManager constructor.
-     *
      * @param Database $database
      * @param Auth $auth
      * @param PostValidator $validator

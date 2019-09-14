@@ -7,8 +7,6 @@ use Core\Entities\TagEntity;
 use function App\Util\to_object;
 
 /**
- * Class PostResource.
- *
  * @package Api\V1\Http\Resources
  */
 class PostResource extends PostPlainResource

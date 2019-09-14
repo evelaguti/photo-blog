@@ -3,8 +3,6 @@
 namespace Core\Entities;
 
 /**
- * Class SubscriptionEntity.
- *
  * @package Core\Entities
  */
 final class SubscriptionEntity extends AbstractEntity
@@ -14,8 +12,6 @@ final class SubscriptionEntity extends AbstractEntity
     private $token;
 
     /**
-     * SubscriptionEntity constructor.
-     *
      * @param array $attributes
      */
     public function __construct(array $attributes)

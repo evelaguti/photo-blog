@@ -7,8 +7,6 @@ use Illuminate\Contracts\Routing\ResponseFactory;
 use Illuminate\Http\JsonResponse;
 
 /**
- * Class SubscriptionDeleteByTokenAction.
- *
  * @package Api\V1\Http\Actions
  */
 class SubscriptionDeleteByTokenAction
@@ -24,8 +22,6 @@ class SubscriptionDeleteByTokenAction
     private $subscriptionManager;
 
     /**
-     * SubscriptionDeleteByTokenAction constructor.
-     *
      * @param ResponseFactory $responseFactory
      * @param SubscriptionManager $subscriptionManager
      */

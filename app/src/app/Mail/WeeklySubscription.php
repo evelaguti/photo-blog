@@ -5,8 +5,6 @@ namespace App\Mail;
 use Illuminate\Mail\Mailable;
 
 /**
- * Class WeeklySubscription.
- *
  * @package App\Mail
  */
 class WeeklySubscription extends Mailable
@@ -17,8 +15,6 @@ class WeeklySubscription extends Mailable
     public $data;
 
     /**
-     * ContactMessage constructor.
-     *
      * @param array $data
      */
     public function __construct(array $data)

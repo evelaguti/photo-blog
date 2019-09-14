@@ -5,8 +5,6 @@ namespace Core\Contracts;
 use Core\Entities\PhotoEntity;
 
 /**
- * Interface PhotoManager.
- *
  * @package Core\Contracts
  */
 interface PhotoManager

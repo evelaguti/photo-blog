@@ -7,8 +7,6 @@ use Illuminate\Contracts\Validation\Rule;
 use InvalidArgumentException;
 
 /**
- * Class LongitudeRule.
- *
  * @package App\Rules
  */
 class LongitudeRule implements Rule

@@ -7,8 +7,6 @@ use Illuminate\Contracts\Routing\ResponseFactory;
 use Illuminate\Http\JsonResponse;
 
 /**
- * Class InfoGetAction.
- *
  * @package Api\V1\Http\Actions
  */
 class InfoGetAction
@@ -24,8 +22,6 @@ class InfoGetAction
     protected $config;
 
     /**
-     * InfoGetAction constructor.
-     *
      * @param ResponseFactory $responseFactory
      * @param Config $config
      */

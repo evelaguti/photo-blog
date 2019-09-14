@@ -9,8 +9,6 @@ use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 
 /**
- * Class PhotoUpdateByIdAction.
- *
  * @package Api\V1\Http\Actions
  */
 class PhotoUpdateByIdAction
@@ -26,8 +24,6 @@ class PhotoUpdateByIdAction
     private $photoManager;
 
     /**
-     * PhotoUpdateByIdAction constructor.
-     *
      * @param ResponseFactory $responseFactory
      * @param PhotoManager $photoManager
      */

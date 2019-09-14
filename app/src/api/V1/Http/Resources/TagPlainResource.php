@@ -8,8 +8,6 @@ use function App\Util\html_purify;
 use function App\Util\to_string;
 
 /**
- * Class TagPlainResource.
- *
  * @package Api\V1\Http\Resources
  */
 class TagPlainResource extends Resource

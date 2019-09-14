@@ -3,8 +3,6 @@
 namespace App\Services\Image\Contracts;
 
 /**
- * Interface ImageProcessor.
- *
  * @package App\Services\Image\Contracts
  */
 interface ImageProcessor

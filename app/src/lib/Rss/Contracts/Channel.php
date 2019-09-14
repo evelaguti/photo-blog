@@ -3,8 +3,6 @@
 namespace Lib\Rss\Contracts;
 
 /**
- * Interface Channel.
- *
  * @package Lib\Rss\Contracts
  */
 interface Channel

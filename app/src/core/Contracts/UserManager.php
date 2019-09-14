@@ -5,8 +5,6 @@ namespace Core\Contracts;
 use Core\Entities\UserEntity;
 
 /**
- * Interface UserManager.
- *
  * @package Core\Contracts
  */
 interface UserManager

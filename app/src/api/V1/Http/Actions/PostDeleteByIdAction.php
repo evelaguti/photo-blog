@@ -8,8 +8,6 @@ use Illuminate\Contracts\Routing\ResponseFactory;
 use Illuminate\Http\JsonResponse;
 
 /**
- * Class PostDeleteByIdAction.
- *
  * @package Api\V1\Http\Actions
  */
 class PostDeleteByIdAction
@@ -30,8 +28,6 @@ class PostDeleteByIdAction
     private $cacheManager;
 
     /**
-     * PostDeleteByIdAction constructor.
-     *
      * @param ResponseFactory $responseFactory
      * @param PostManager $postManager
      * @param CacheManager $cacheManager

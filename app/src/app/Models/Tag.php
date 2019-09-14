@@ -9,8 +9,6 @@ use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * Class Tag.
- *
  * @property int id
  * @property string value
  * @property Collection posts

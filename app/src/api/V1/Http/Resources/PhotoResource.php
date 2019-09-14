@@ -7,8 +7,6 @@ use function App\Util\to_object;
 use function App\Util\to_string;
 
 /**
- * Class PhotoResource.
- *
  * @package Api\V1\Http\Resources
  */
 class PhotoResource extends PhotoPlainResource

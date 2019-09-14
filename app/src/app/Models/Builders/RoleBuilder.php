@@ -7,8 +7,6 @@ use Core\Entities\UserEntity;
 use Illuminate\Database\Eloquent\Builder;
 
 /**
- * Class RoleBuilder.
- *
  * @package App\Models\Builders
  */
 class RoleBuilder extends Builder

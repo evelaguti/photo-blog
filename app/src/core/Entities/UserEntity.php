@@ -7,8 +7,6 @@ use Illuminate\Support\Collection;
 use InvalidArgumentException;
 
 /**
- * Class UserEntity.
- *
  * @package Core\Entities
  */
 final class UserEntity extends AbstractEntity
@@ -25,8 +23,6 @@ final class UserEntity extends AbstractEntity
     private $updatedAt;
 
     /**
-     * UserEntity constructor.
-     *
      * @param array $attributes
      */
     public function __construct(array $attributes)

@@ -9,8 +9,6 @@ use Illuminate\Http\Response;
 use Illuminate\Routing\ResponseFactory;
 
 /**
- * Class RssGetAction.
- *
  * @package App\Http\Actions
  */
 class RssGetAction
@@ -36,8 +34,6 @@ class RssGetAction
     private $config;
 
     /**
-     * RssGetAction constructor.
-     *
      * @param ResponseFactory $responseFactory
      * @param RssBuilder $rssBuilder
      * @param CacheManager $cacheManager

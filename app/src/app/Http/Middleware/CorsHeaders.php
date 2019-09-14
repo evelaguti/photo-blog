@@ -11,8 +11,6 @@ use Symfony\Component\HttpKernel\Exception\HttpException;
 use function App\env_production;
 
 /**
- * Class CorsHeaders.
- *
  * @package App\Http\Middleware
  */
 class CorsHeaders
@@ -28,8 +26,6 @@ class CorsHeaders
     private $responseFactory;
 
     /**
-     * CorsHeaders constructor.
-     *
      * @param Config $config
      * @param ResponseFactory $responseFactory
      */

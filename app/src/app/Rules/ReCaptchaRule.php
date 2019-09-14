@@ -5,8 +5,6 @@ namespace App\Rules;
 use Illuminate\Contracts\Validation\Rule;
 
 /**
- * Class ReCaptchaRule.
- *
  * @package App\Rules
  */
 class ReCaptchaRule implements Rule
@@ -19,8 +17,6 @@ class ReCaptchaRule implements Rule
     private $secretKey;
 
     /**
-     * ReCaptchaRule constructor.
-     *
      * @param null|string $secretKey
      */
     public function __construct(?string $secretKey)

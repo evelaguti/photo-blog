@@ -9,8 +9,6 @@ use Illuminate\Http\Response;
 use Illuminate\Routing\ResponseFactory;
 
 /**
- * Class SiteMapGetAction.
- *
  * @package App\Http\Actions
  */
 class SiteMapGetAction
@@ -36,8 +34,6 @@ class SiteMapGetAction
     private $config;
 
     /**
-     * SiteMapGetAction constructor.
-     *
      * @param ResponseFactory $responseFactory
      * @param SiteMapBuilder $siteMapBuilder
      * @param CacheManager $cacheManager

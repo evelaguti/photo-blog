@@ -10,8 +10,6 @@ use Illuminate\Contracts\Hashing\Hasher;
 use Illuminate\Database\ConnectionInterface as Database;
 
 /**
- * Class ARUserManager.
- *
  * @package App\Managers\User
  */
 class ARUserManager implements UserManager
@@ -32,8 +30,6 @@ class ARUserManager implements UserManager
     private $validator;
 
     /**
-     * ARUserManager constructor.
-     *
      * @param Database $database
      * @param Hasher $hasher
      * @param UserValidator $validator

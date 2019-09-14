@@ -10,8 +10,6 @@ use Illuminate\Contracts\Routing\ResponseFactory;
 use Illuminate\Http\JsonResponse;
 
 /**
- * Class SubscriptionPaginateAction.
- *
  * @package Api\V1\Http\Actions
  */
 class SubscriptionPaginateAction
@@ -27,8 +25,6 @@ class SubscriptionPaginateAction
     private $subscriptionManager;
 
     /**
-     * SubscriptionPaginateAction constructor.
-     *
      * @param ResponseFactory $responseFactory
      * @param SubscriptionManager $subscriptionManager
      */

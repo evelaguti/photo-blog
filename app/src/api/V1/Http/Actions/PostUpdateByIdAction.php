@@ -10,8 +10,6 @@ use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 
 /**
- * Class PostUpdateByIdAction.
- *
  * @package Api\V1\Http\Actions
  */
 class PostUpdateByIdAction
@@ -32,8 +30,6 @@ class PostUpdateByIdAction
     private $cacheManager;
 
     /**
-     * PostUpdateByIdAction constructor.
-     *
      * @param ResponseFactory $responseFactory
      * @param PostManager $postManager
      * @param CacheManager $cacheManager

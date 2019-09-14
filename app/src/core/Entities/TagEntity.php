@@ -3,8 +3,6 @@
 namespace Core\Entities;
 
 /**
- * Class TagEntity.
- *
  * @package Core\Entities
  */
 final class TagEntity extends AbstractEntity
@@ -13,8 +11,6 @@ final class TagEntity extends AbstractEntity
     private $value;
 
     /**
-     * TagEntity constructor.
-     *
      * @param array $attributes
      */
     public function __construct(array $attributes)

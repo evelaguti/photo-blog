@@ -10,8 +10,6 @@ use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 
 /**
- * Class UserUpdateByIdAction.
- *
  * @package Api\V1\Http\Actions
  */
 class UserUpdateByIdAction
@@ -27,8 +25,6 @@ class UserUpdateByIdAction
     private $userManager;
 
     /**
-     * UserUpdateByIdAction constructor.
-     *
      * @param ResponseFactory $responseFactory
      * @param UserManager $userManager
      */

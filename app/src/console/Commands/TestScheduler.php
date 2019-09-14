@@ -6,8 +6,6 @@ use Illuminate\Console\Command;
 use Psr\Log\LoggerInterface;
 
 /**
- * Class TestScheduler.
- *
  * @package Console\Commands
  */
 class TestScheduler extends Command

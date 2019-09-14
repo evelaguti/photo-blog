@@ -7,8 +7,6 @@ use Core\Entities\SubscriptionEntity;
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * Class Subscription.
- *
  * @property int id
  * @property string email
  * @property string token

@@ -11,8 +11,6 @@ use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Response;
 
 /**
- * Class TagPaginateAction.
- *
  * @package Api\V1\Http\Actions
  */
 class TagPaginateAction
@@ -28,8 +26,6 @@ class TagPaginateAction
     private $tagManager;
 
     /**
-     * TagPaginateAction constructor.
-     *
      * @param ResponseFactory $responseFactory
      * @param TagManager $tagManager
      */

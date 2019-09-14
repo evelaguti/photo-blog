@@ -6,8 +6,6 @@ use Illuminate\Contracts\View\Factory as ViewFactory;
 use Illuminate\Contracts\View\View;
 
 /**
- * Class IndexGetAction.
- *
  * @package App\Http\Actions
  */
 class IndexGetAction
@@ -18,8 +16,6 @@ class IndexGetAction
     private $viewFactory;
 
     /**
-     * IndexGetAction constructor.
-     *
      * @param ViewFactory $viewFactory
      */
     public function __construct(ViewFactory $viewFactory)

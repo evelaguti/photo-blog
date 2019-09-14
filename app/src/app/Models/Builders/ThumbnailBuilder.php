@@ -5,8 +5,6 @@ namespace App\Models\Builders;
 use Illuminate\Database\Eloquent\Builder;
 
 /**
- * Class ThumbnailBuilder.
- *
  * @package App\Models\Builders
  */
 class ThumbnailBuilder extends Builder

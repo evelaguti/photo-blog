@@ -11,8 +11,6 @@ use Core\ValueObjects\Longitude;
 use Illuminate\Database\ConnectionInterface as Database;
 
 /**
- * Class ARLocationManager.
- *
  * @package App\Managers\Location
  */
 class ARLocationManager implements LocationManager
@@ -28,8 +26,6 @@ class ARLocationManager implements LocationManager
     private $validator;
 
     /**
-     * ARLocationManager constructor.
-     *
      * @param Database $database
      * @param LocationValidator $validator
      */

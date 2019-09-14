@@ -7,8 +7,6 @@ use Core\ValueObjects\Latitude;
 use Core\ValueObjects\Longitude;
 
 /**
- * Class LocationEntity.
- *
  * @package Core\Entities
  */
 final class LocationEntity extends AbstractEntity
@@ -17,8 +15,6 @@ final class LocationEntity extends AbstractEntity
     private $coordinates;
 
     /**
-     * LocationEntity constructor.
-     *
      * @param array $attributes
      */
     public function __construct(array $attributes)

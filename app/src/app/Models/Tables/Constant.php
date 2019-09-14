@@ -3,8 +3,6 @@
 namespace App\Models\Tables;
 
 /**
- * Class Constant.
- *
  * @package App\Models\Tables
  */
 final class Constant

@@ -10,8 +10,6 @@ use Illuminate\Http\Response;
 use Illuminate\Support\Facades\Mail;
 
 /**
- * Class ContactMessageSendAction.
- *
  * @package Api\V1\Http\Actions
  */
 class ContactMessageSendAction
@@ -22,8 +20,6 @@ class ContactMessageSendAction
     protected $responseFactory;
 
     /**
-     * ContactMessageSendAction constructor.
-     *
      * @param ResponseFactory $responseFactory
      */
     public function __construct(ResponseFactory $responseFactory)

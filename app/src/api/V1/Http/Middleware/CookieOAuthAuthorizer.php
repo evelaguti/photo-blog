@@ -7,8 +7,6 @@ use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 
 /**
- * Class CookieOAuthAuthorizer.
- *
  * @package Api\V1\Http\Middleware
  */
 class CookieOAuthAuthorizer

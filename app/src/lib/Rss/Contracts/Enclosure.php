@@ -3,8 +3,6 @@
 namespace Lib\Rss\Contracts;
 
 /**
- * Interface Enclosure.
- *
  * @package Lib\Rss\Contracts
  */
 interface Enclosure

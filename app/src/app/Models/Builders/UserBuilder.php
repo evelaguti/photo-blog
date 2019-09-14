@@ -6,8 +6,6 @@ use App\Models\Tables\Constant;
 use Illuminate\Database\Eloquent\Builder;
 
 /**
- * Class UserBuilder.
- *
  * @package App\Models\Builders
  */
 class UserBuilder extends Builder

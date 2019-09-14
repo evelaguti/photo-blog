@@ -6,8 +6,6 @@ use App\Models\Builders\RoleBuilder;
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * Class Role.
- *
  * @property int id
  * @property string name
  * @package App\Models

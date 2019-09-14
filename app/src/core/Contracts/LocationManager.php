@@ -5,8 +5,6 @@ namespace Core\Contracts;
 use Core\Entities\LocationEntity;
 
 /**
- * Interface LocationManager.
- *
  * @package Core\Contracts
  */
 interface LocationManager

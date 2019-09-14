@@ -10,8 +10,6 @@ use Illuminate\Validation\ValidationException;
 use function App\Util\validator_filter_attributes;
 
 /**
- * Class PostValidator.
- *
  * @package App\Managers\Post
  */
 class PostValidator
@@ -22,8 +20,6 @@ class PostValidator
     private $validatorFactory;
 
     /**
-     * PostValidator constructor.
-     *
      * @param ValidatorFactory $validatorFactory
      */
     public function __construct(ValidatorFactory $validatorFactory)

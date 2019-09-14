@@ -8,8 +8,6 @@ use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Builder;
 
 /**
- * Class PostBuilder.
- *
  * @package App\Models\Builders
  */
 class PostBuilder extends Builder

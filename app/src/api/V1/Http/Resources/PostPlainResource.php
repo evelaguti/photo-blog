@@ -10,8 +10,6 @@ use function App\Util\to_int;
 use function App\Util\to_string;
 
 /**
- * Class PostPlainResource.
- *
  * @package Api\V1\Http\Resources
  */
 class PostPlainResource extends Resource

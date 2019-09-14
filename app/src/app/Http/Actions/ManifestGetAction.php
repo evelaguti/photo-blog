@@ -6,8 +6,6 @@ use App\Services\Manifest\Contracts\Manifest;
 use Illuminate\Routing\ResponseFactory;
 
 /**
- * Class ManifestGetAction.
- *
  * @package App\Http\Actions
  */
 class ManifestGetAction
@@ -23,8 +21,6 @@ class ManifestGetAction
     private $manifest;
 
     /**
-     * ManifestGetAction constructor.
-     *
      * @param ResponseFactory $responseFactory
      * @param Manifest $manifest
      */

@@ -13,8 +13,6 @@ use Illuminate\Validation\ValidationException;
 use function App\Util\validator_filter_attributes;
 
 /**
- * Class PhotoValidator.
- *
  * @package App\Managers\Photo
  */
 class PhotoValidator
@@ -35,8 +33,6 @@ class PhotoValidator
     private $config;
 
     /**
-     * PhotoValidator constructor.
-     *
      * @param Container $container
      * @param ValidatorFactory $validatorFactory
      * @param Config $config

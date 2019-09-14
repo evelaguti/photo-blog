@@ -5,8 +5,6 @@ namespace Lib\SiteMap;
 use Lib\SiteMap\Contracts\Item as ItemContract;
 
 /**
- * Class SiteMapItem.
- *
  * @package Lib\SiteMap
  */
 class Item implements ItemContract

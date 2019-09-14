@@ -16,8 +16,6 @@ use Symfony\Bridge\PsrHttpMessage\Factory\HttpFoundationFactory;
 use Symfony\Component\HttpFoundation\Response as SymfonyResponse;
 
 /**
- * Class Prerender.
- *
  * @package App\Http\Middleware
  */
 class Prerender
@@ -70,8 +68,6 @@ class Prerender
     private $blacklist;
 
     /**
-     * Prerender constructor.
-     *
      * @param HttpClient $httpClient
      * @param ResponseFactory $responseFactory
      * @param Config $config

@@ -10,8 +10,6 @@ use Illuminate\Validation\ValidationException;
 use function App\Util\validator_filter_attributes;
 
 /**
- * Class LocationValidator.
- *
  * @package App\Managers\Location
  */
 class LocationValidator
@@ -27,8 +25,6 @@ class LocationValidator
     private $validatorFactory;
 
     /**
-     * LocationValidator constructor.
-     *
      * @param Container $container
      * @param ValidatorFactory $validatorFactory
      */

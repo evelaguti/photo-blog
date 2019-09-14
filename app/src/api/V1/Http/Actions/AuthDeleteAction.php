@@ -9,8 +9,6 @@ use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 
 /**
- * Class AuthDeleteAction.
- *
  * @package Api\V1\Http\Actions
  */
 class AuthDeleteAction
@@ -26,8 +24,6 @@ class AuthDeleteAction
     protected $oAuthProxy;
 
     /**
-     * AuthDeleteAction constructor.
-     *
      * @param ResponseFactory $responseFactory
      * @param OAuthProxy $oAuthProxy
      */

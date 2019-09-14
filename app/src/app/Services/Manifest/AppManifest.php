@@ -6,8 +6,6 @@ use App\Services\Manifest\Contracts\Manifest;
 use Illuminate\Config\Repository as Config;
 
 /**
- * Class AppManifest.
- *
  * @package App\Services\Rss
  */
 class AppManifest implements Manifest
@@ -18,8 +16,6 @@ class AppManifest implements Manifest
     private $config;
 
     /**
-     * AppManifest constructor.
-     *
      * @param Config $config
      */
     public function __construct(Config $config)

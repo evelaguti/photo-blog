@@ -9,8 +9,6 @@ use function App\Util\to_int;
 use function App\Util\to_string;
 
 /**
- * Class UserPlainResource.
- *
  * @package Api\V1\Http\Resources
  */
 class UserPlainResource extends Resource

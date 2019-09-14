@@ -11,8 +11,6 @@ use Illuminate\Contracts\Routing\ResponseFactory;
 use Illuminate\Http\JsonResponse;
 
 /**
- * Class PostPaginateAction.
- *
  * @package Api\V1\Http\Actions
  */
 class PostPaginateAction
@@ -33,8 +31,6 @@ class PostPaginateAction
     private $cacheManager;
 
     /**
-     * PostPaginateAction constructor.
-     *
      * @param ResponseFactory $responseFactory
      * @param PostManager $postManager
      * @param CacheManager $cacheManager

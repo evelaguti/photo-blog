@@ -6,8 +6,6 @@ use App\Managers\User\ARUserManager;
 use Illuminate\Console\Command;
 
 /**
- * Class ChangeUserPassword.
- *
  * @package Console\Commands
  */
 class ChangeUserPassword extends Command

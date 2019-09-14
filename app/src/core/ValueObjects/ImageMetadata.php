@@ -7,8 +7,6 @@ use Illuminate\Contracts\Support\Arrayable;
 use JsonSerializable;
 
 /**
- * Class ImageMetadata.
- *
  * @package Core\ValueObjects
  */
 final class ImageMetadata implements Arrayable, JsonSerializable
@@ -16,8 +14,6 @@ final class ImageMetadata implements Arrayable, JsonSerializable
     private $attributes;
 
     /**
-     * ImageMetadata constructor.
-     *
      * @param array $attributes
      */
     public function __construct(array $attributes)

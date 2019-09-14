@@ -9,8 +9,6 @@ use Illuminate\Contracts\Routing\ResponseFactory;
 use Illuminate\Http\JsonResponse;
 
 /**
- * Class SubscriptionCreateAction.
- *
  * @package Api\V1\Http\Actions
  */
 class SubscriptionCreateAction
@@ -26,8 +24,6 @@ class SubscriptionCreateAction
     private $subscriptionManager;
 
     /**
-     * SubscriptionCreateAction constructor.
-     *
      * @param ResponseFactory $responseFactory
      * @param SubscriptionManager $subscriptionManager
      */

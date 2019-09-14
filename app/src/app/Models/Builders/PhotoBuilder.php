@@ -8,8 +8,6 @@ use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Builder;
 
 /**
- * Class PhotoBuilder.
- *
  * @package App\Models\Builders
  */
 class PhotoBuilder extends Builder

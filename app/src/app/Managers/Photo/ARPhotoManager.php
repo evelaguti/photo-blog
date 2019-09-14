@@ -12,8 +12,6 @@ use Illuminate\Database\ConnectionInterface as Database;
 use function App\Util\str_unique;
 
 /**
- * Class ARPhotoManager.
- *
  * @package App\Managers\Photo
  */
 class ARPhotoManager implements PhotoManager
@@ -44,8 +42,6 @@ class ARPhotoManager implements PhotoManager
     private $validator;
 
     /**
-     * ARPhotoManager constructor.
-     *
      * @param Database $database
      * @param Storage $storage
      * @param LocationManager $locationManager

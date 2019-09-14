@@ -6,8 +6,6 @@ use Lib\SiteMap\Contracts\Builder as BuilderContract;
 use Lib\SiteMap\Contracts\Item as ItemContract;
 
 /**
- * Class SiteMapBuilder.
- *
  * @package Lib\SiteMap
  */
 class Builder implements BuilderContract

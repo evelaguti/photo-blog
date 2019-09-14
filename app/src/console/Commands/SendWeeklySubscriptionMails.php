@@ -14,8 +14,6 @@ use function App\Util\url_frontend;
 use function App\Util\url_frontend_unsubscription;
 
 /**
- * Class SendWeeklySubscriptionMails.
- *
  * @package Console\Commands
  */
 class SendWeeklySubscriptionMails extends Command

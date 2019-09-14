@@ -8,8 +8,6 @@ use Illuminate\Console\Command;
 use function App\Util\url_frontend_sign_in;
 
 /**
- * Class CreateAdministratorUser.
- *
  * @package Console\Commands
  */
 class CreateAdministratorUser extends Command
@@ -34,8 +32,6 @@ class CreateAdministratorUser extends Command
     private $userManager;
 
     /**
-     * CreateAdministratorUser constructor.
-     *
      * @param ARUserManager $userManager
      */
     public function __construct(ARUserManager $userManager)

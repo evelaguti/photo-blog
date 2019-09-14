@@ -5,8 +5,6 @@ namespace Lib\Rss;
 use Lib\Rss\Contracts\Enclosure as EnclosureContract;
 
 /**
- * Class Enclosure.
- *
  * @package Lib\Rss
  */
 class Enclosure implements EnclosureContract

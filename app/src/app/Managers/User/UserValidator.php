@@ -10,8 +10,6 @@ use Illuminate\Validation\ValidationException;
 use function App\Util\validator_filter_attributes;
 
 /**
- * Class UserValidator.
- *
  * @package App\Managers\User
  */
 class UserValidator
@@ -22,8 +20,6 @@ class UserValidator
     private $validatorFactory;
 
     /**
-     * SubscriptionValidator constructor.
-     *
      * @param ValidatorFactory $validatorFactory
      */
     public function __construct(ValidatorFactory $validatorFactory)

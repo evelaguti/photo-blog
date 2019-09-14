@@ -10,8 +10,6 @@ use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 
 /**
- * Class PostCreateAction.
- *
  * @package Api\V1\Http\Actions
  */
 class PostCreateAction
@@ -32,8 +30,6 @@ class PostCreateAction
     private $cacheManager;
 
     /**
-     * PostCreateAction constructor.
-     *
      * @param ResponseFactory $responseFactory
      * @param PostManager $postManager
      * @param CacheManager $cacheManager

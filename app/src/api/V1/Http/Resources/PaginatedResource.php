@@ -5,8 +5,6 @@ namespace Api\V1\Http\Resources;
 use Illuminate\Http\Resources\Json\ResourceCollection;
 
 /**
- * Class PaginatedResource.
- *
  * @package Api\V1\Http\Resources
  */
 class PaginatedResource extends ResourceCollection
@@ -17,8 +15,6 @@ class PaginatedResource extends ResourceCollection
     private $wrapper;
 
     /**
-     * PaginatedResource constructor.
-     *
      * @param mixed $resource
      * @param string|callable $wrapper
      */

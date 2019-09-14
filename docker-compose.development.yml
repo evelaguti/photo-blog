@@ -8,7 +8,6 @@ services:
     restart: no
 
   app:
-
     volumes:
       - ./app:/var/www/app
       - ./app/php.ini-development:/usr/local/etc/php/php.ini

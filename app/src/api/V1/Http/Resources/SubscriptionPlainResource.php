@@ -8,8 +8,6 @@ use function App\Util\html_purify;
 use function App\Util\to_string;
 
 /**
- * Class SubscriptionPlainResource.
- *
  * @package Api\V1\Http\Resources
  */
 class SubscriptionPlainResource extends Resource

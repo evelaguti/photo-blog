@@ -8,8 +8,6 @@ use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Response;
 
 /**
- * Class UserDeleteByIdAction.
- *
  * @package Api\V1\Http\Actions
  */
 class UserDeleteByIdAction
@@ -25,8 +23,6 @@ class UserDeleteByIdAction
     private $userManager;
 
     /**
-     * UserDeleteByIdAction constructor.
-     *
      * @param ResponseFactory $responseFactory
      * @param UserManager $userManager
      */

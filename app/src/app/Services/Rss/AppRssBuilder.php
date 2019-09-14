@@ -19,8 +19,6 @@ use function App\Util\url_frontend_photo;
 use function App\Util\url_storage;
 
 /**
- * Class AppRssBuilder.
- *
  * @package App\Services\Rss
  */
 class AppRssBuilder implements RssBuilder
@@ -46,8 +44,6 @@ class AppRssBuilder implements RssBuilder
     private $photoManager;
 
     /**
-     * AppRssBuilder constructor.
-     *
      * @param Config $config
      * @param Storage $storage
      * @param Builder $rssBuilder

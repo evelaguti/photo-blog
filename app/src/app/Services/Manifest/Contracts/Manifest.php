@@ -3,8 +3,6 @@
 namespace App\Services\Manifest\Contracts;
 
 /**
- * Interface Manifest.
- *
  * @package App\Services\SiteMap\Contracts
  */
 interface Manifest

@@ -11,8 +11,6 @@ use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
 
 /**
- * Class DeleteUnusedObjectsFromPhotoStorage.
- *
  * @package Console\Commands
  */
 class DeleteUnusedObjectsFromPhotoStorage extends Command
@@ -43,8 +41,6 @@ class DeleteUnusedObjectsFromPhotoStorage extends Command
     private $storage;
 
     /**
-     * DeleteUnusedObjectsFromPhotoStorage constructor.
-     *
      * @param Config $config
      * @param Storage $storage
      */

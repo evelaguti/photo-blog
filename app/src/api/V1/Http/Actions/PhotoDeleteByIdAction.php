@@ -7,8 +7,6 @@ use Illuminate\Contracts\Routing\ResponseFactory;
 use Illuminate\Http\JsonResponse;
 
 /**
- * Class PhotoDeleteByIdAction.
- *
  * @package Api\V1\Http\Actions
  */
 class PhotoDeleteByIdAction
@@ -24,8 +22,6 @@ class PhotoDeleteByIdAction
     private $photoManager;
 
     /**
-     * PhotoDeleteByIdAction constructor.
-     *
      * @param ResponseFactory $responseFactory
      * @param PhotoManager $photoManager
      */

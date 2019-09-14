@@ -8,8 +8,6 @@ use Illuminate\Contracts\Pagination\LengthAwarePaginator;
 use Illuminate\Database\ConnectionInterface as Database;
 
 /**
- * Class ARTagManager.
- *
  * @package App\Managers\Tag
  */
 class ARTagManager implements TagManager
@@ -20,8 +18,6 @@ class ARTagManager implements TagManager
     private $database;
 
     /**
-     * TagManager constructor.
-     *
      * @param Database $database
      */
     public function __construct(Database $database)

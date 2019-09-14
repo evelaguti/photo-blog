@@ -5,8 +5,6 @@ namespace App\Services\SiteMap\Contracts;
 use Lib\SiteMap\Contracts\Builder;
 
 /**
- * Interface SiteMapBuilderService.
- *
  * @package App\Services\SiteMap\Contracts
  */
 interface SiteMapBuilder

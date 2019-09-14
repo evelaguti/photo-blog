@@ -3,15 +3,11 @@
 namespace Lib\SiteMap\Contracts;
 
 /**
- * Interface Item.
- *
  * @package Lib\SiteMap\Contracts
  */
 interface Item
 {
     /**
-     * Item constructor.
-     *
      * @param string $location
      * @param string $lastModified
      * @param string $changeFrequency

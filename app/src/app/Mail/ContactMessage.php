@@ -5,8 +5,6 @@ namespace App\Mail;
 use Illuminate\Mail\Mailable;
 
 /**
- * Class ContactMessage.
- *
  * @package App\Mail
  */
 class ContactMessage extends Mailable
@@ -17,8 +15,6 @@ class ContactMessage extends Mailable
     public $data;
 
     /**
-     * ContactMessage constructor.
-     *
      * @param array $data
      */
     public function __construct(array $data)

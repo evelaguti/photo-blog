@@ -8,8 +8,6 @@ use Illuminate\Contracts\Routing\ResponseFactory;
 use Illuminate\Http\Response;
 
 /**
- * Class AuthCreateAction.
- *
  * @package Api\V1\Http\Actions
  */
 class AuthCreateAction
@@ -20,8 +18,6 @@ class AuthCreateAction
     protected $oAuthProxy;
 
     /**
-     * AuthCreateAction constructor.
-     *
      * @param ResponseFactory $responseFactory
      * @param OAuthProxy $oAuthProxy
      */

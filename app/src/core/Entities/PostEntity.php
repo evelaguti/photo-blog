@@ -6,8 +6,6 @@ use Carbon\Carbon;
 use Illuminate\Support\Collection;
 
 /**
- * Class PostEntity.
- *
  * @package Core\Entities
  */
 final class PostEntity extends AbstractEntity
@@ -22,8 +20,6 @@ final class PostEntity extends AbstractEntity
     private $publishedAt;
 
     /**
-     * PostEntity constructor.
-     *
      * @param array $attributes
      */
     public function __construct(array $attributes)
