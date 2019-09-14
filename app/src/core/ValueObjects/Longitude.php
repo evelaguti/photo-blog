@@ -28,7 +28,7 @@ final class Longitude
      */
     private function assertValue(float $value): void
     {
-        if ($value < -180 && $value > 180) {
+        if ($value < -180 || $value > 180) {
             throw new InvalidArgumentException('Invalid longitude value.');
         }
     }
